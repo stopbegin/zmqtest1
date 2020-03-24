@@ -78,7 +78,7 @@ const char *version = "1.1.1.1";
 
 void PrintVersion()
 {
-	printf("version: %s, %s %s/n", version, __DATE__, __TIME__);
+	printf("version: %s, %s %s \n", version, __DATE__, __TIME__);
 }
 
 
@@ -148,6 +148,8 @@ void PrintVersion()
 	{
 		if (argc == 2 && _stricmp(argv[1], "-v") == 0)
 			PrintVersion();
+
+
 
 		return 0;
 	}
