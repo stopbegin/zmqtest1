@@ -74,7 +74,7 @@ void SomeFunc() {
 
 #include <iostream>
 
-const char *version = "1.1.1.1";
+const char *version = "2.1.1.1";
 
 void PrintVersion()
 {
